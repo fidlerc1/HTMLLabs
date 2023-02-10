@@ -1,0 +1,32 @@
+body {
+    text-align: center; 
+    background-color: #fcb900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Saxophone {
+    border-style:groove;
+    border-color: indigo;
+    border-radius: 5px;
+    width: 350px;
+    height:300px;
+}
+
+.desc {
+    font-weight: bold;
+}

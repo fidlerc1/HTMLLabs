@@ -30,3 +30,9 @@ table {
 .desc {
     font-weight: bold;
 }
+
+.NameForm {
+    background-color: brown;
+    width: 1366px;
+    height: 100px;
+}

@@ -19,6 +19,10 @@ table {
     margin-right: auto;
 }
 
+label {
+    color: white;
+}
+
 .Saxophone {
     border-style:groove;
     border-color: indigo;
@@ -34,5 +38,5 @@ table {
 .NameForm {
     background-color: brown;
     width: 1366px;
-    height: 100px;
+    height: 200px;
 }

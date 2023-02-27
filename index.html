@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
     <head>
         <title>INF 286 Lab 5</title>
     </head>
@@ -32,11 +33,18 @@
             <br />
             <br />
             <form>
-                <label for="name">What's Your Name?</label>
-                <input type="text" name="username"  />
-                <input type="submit" />
+                <label for="name">Enter a Few Numbers</label>
+                <br />
+                <br />
+                <input type="text" id="numberInput"  />
+                <input type="button" value="Add" onclick="addNumber()" />
+                <input type="button" value="Finish" id="FinishButton" onclick="outputNumbers()" />
             </form>
+            <br />
+            <p id="numberOutput"></p>
+            <p id="largestNumber"></p>
         </div>
+
         <br />
 
         <h3>Here are my Classes for each week:</h3>
